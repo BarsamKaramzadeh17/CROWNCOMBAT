@@ -11,6 +11,7 @@ public class Main {
         new Main();
     }
     public Main(){
+        // using timer without showing it on a window using swing library
         second=0;
         while (true){
             sampleTimer();
