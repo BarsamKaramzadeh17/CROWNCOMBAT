@@ -12,7 +12,7 @@ public class Main {
     }
     public Main(){
         second=0;
-        System.out.println("helloo");
+        System.out.println("SALAAAAMMMMMMMMMM");
 //        while (true){
 //            sampleTimer();
 //            timer.start();
