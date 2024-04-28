@@ -13,6 +13,8 @@ public class Main {
     public Main(){
         second=0;
         System.out.println("SALAAAAMMMMMMMMMM");
+        Card Arya=new Card();
+        Grid Map=new Grid();
 //        while (true){
 //            sampleTimer();
 //            timer.start();
