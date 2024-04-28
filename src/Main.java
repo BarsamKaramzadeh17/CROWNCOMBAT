@@ -12,24 +12,25 @@ public class Main {
     }
     public Main(){
         second=0;
-        while (true){
-            sampleTimer();
-            timer.start();
-            if(second%2==0){
-                System.out.println("Now time is Even");
-            }
-            else {
-                System.out.println("Now is odd");
-            }
-        }
+        System.out.println("helloo");
+//        while (true){
+//            sampleTimer();
+//            timer.start();
+//            if(second%2==0){
+//                System.out.println("Now time is Even");
+//            }
+//            else {
+//                System.out.println("Now is odd");
+//            }
+//        }
 
     }
-    public void sampleTimer(){
-        timer = new Timer(1000 , new ActionListener(){
-            @Override
-            public void actionPerformed(ActionEvent e){
-                second++;
-            }
-        })
-    ;};
+//    public void sampleTimer(){
+//        timer = new Timer(1000 , new ActionListener(){
+//            @Override
+//            public void actionPerformed(ActionEvent e){
+//                second++;
+//            }
+//        })
+//    ;};
 }
