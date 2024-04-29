@@ -4,17 +4,22 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class Main {
-    Timer timer;
-    int second;
 
     public static void main(String[] args){
-        new Main();
+        JFrame fr=new JFrame("My Window is thois");
+        fr.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        fr.setSize(500,500);
+        fr.setLocationRelativeTo(null);
+        fr.setVisible(true);
+        fr.setResizable(false);
+
+        JLabel img=new JLabel();
+        img.setIcon(new ImageIcon("C:\\Users\\Arian\\Desktop\\Crwon-Combat\\back.jpg"));
+        fr.add(img);
+
+
     }
-    public Main(){
-        second=0;
-        System.out.println("SALAAAAMMMMMMMMMM");
-        Card Arya=new Card();
-        Grid Map=new Grid();
+
 //        while (true){
 //            sampleTimer();
 //            timer.start();
@@ -26,7 +31,7 @@ public class Main {
 //            }
 //        }
 
-    }
+
 //    public void sampleTimer(){
 //        timer = new Timer(1000 , new ActionListener(){
 //            @Override
